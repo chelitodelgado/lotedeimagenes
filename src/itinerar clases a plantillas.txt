@@ -1,0 +1,23 @@
+{{-- <div class="timeline">
+
+            <div class="timeline-show mb-3 text-center">
+                <h5 class="m-0 time-show-name">Documentación</h5>
+            </div>
+
+            @foreach ($actividades as $indice => $docs)
+            @php
+                $class = $indice%2 == 0 ? 'timeline-item-left' : '' ;
+            @endphp
+                <div id="summernote-editmode" class="timeline-lg-item {{$class}}">
+                    <div class="timeline-desk">
+                        <div class="timeline-box">
+                            <span class="arrow-alt"></span>
+                            <span class="timeline-icon"><i class="mdi mdi-adjust"></i></span>
+                             <h4 class="mt-0 mb-1 font-16">{{ $docs->titulo }}</h4>
+                            <p>{!!$docs->actividades!!}</p>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+
+        </div> --}}
